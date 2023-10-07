@@ -1,0 +1,115 @@
+html{
+    margin: 0;
+}
+
+h1:nth-child(1){
+    background: red;
+    font-size: 1em;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h1:nth-child(2){
+    background: blue;
+    color: yellow;
+    height: 100px;
+    width: 500px;
+    overflow: scroll;
+    margin: 0px;
+}
+
+h1:nth-child(3){
+    padding: 200px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: gray;
+    height: 300px;
+    width: 50vw;
+    overflow: auto;
+}
+
+h1:nth-child(4){
+    background-color: yellow;
+    font-size: 3em;
+    background: blueviolet;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+table:nth-of-type(1){
+    margin-bottom:50px;
+    margin-top: 50px;
+    
+}
+
+table:nth-of-type(1) th{
+    background: blue;
+    height: 50px;
+    width: 150px;
+}
+table:nth-of-type(1) tr:nth-child(odd){
+    background: lightskyblue;
+    height: 50px;
+    width: 150px;
+}
+table:nth-of-type(1) tr:nth-child(even){
+    background: lightblue;
+    height: 50px;
+    width: 150px;
+}
+
+table:nth-of-type(2){
+    border-collapse: collapse;
+}
+
+table:nth-of-type(2) th{
+    height: 50px;
+    width: 150px;
+    background:gray;
+    border: 2px solid black;
+}
+table:nth-of-type(2) td{
+    height: 50px;
+    width: 150px;
+    background-color: lightgray;
+    border: 2px solid black;
+}
+p{
+    margin: 0px;
+}
+img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.images img{
+    display: block;
+    margin: 10px;
+}
+.images :nth-child(1){
+    border: 1px solid black;
+}
+.images :nth-child(2){
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 200px;
+}
+.images :nth-child(3){
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: -220px;
+  
+}
+
+ul:nth-of-type(1){
+    background-color: blue;
+    position:relative;
+    bottom: -200px;
+}
+
+ul:nth-of-type(2){
+    background-color: red;
+}
