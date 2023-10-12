@@ -3,6 +3,7 @@ body {
 	font-size: 62.5%;
 	background-color: rgb(219, 219, 219);
 	margin: 0px;
+
 }
 h1 {
 	font-size: 2.4em;
@@ -18,10 +19,11 @@ h1 {
 h2 {
 	font-size: 1.8em;
 	color: black;
-	border-bottom: 1px solid blue;
-	display: inline-block;
-	width:fit-content;
+	border-bottom: 2px solid blue;
+	display: flex;
+
 	margin-bottom: 0;
+
 }
 h3 {
 	font-size: 1.4em;
@@ -59,4 +61,7 @@ p:nth-of-type(3){
 
 p:nth-of-type(5){
 	margin-top: 10px;
+}
+.main_text{
+	padding: 10px;
 }
