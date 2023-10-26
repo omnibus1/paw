@@ -1,0 +1,73 @@
+.content{
+    display: flex;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    background-color: rgb(212, 212, 212);
+    margin: 30px;
+    text-align: center;
+}
+.navbar{
+    padding: 10px;
+}
+.bigger{
+    padding: 10px;
+    height: 200px;
+}
+#center{
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#top{
+    flex: 1 1 100%;
+    border: 1px solid black;
+    height: 50px;
+    padding: 10px;
+}
+#glowna{
+    flex: 1 1 25%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+#galeria{
+    flex: 1 1 25%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+#lokalizacja{
+    flex: 1 1 25%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+#kontakt{
+    flex: 1 1 25%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+#lewa{
+    flex: 1 1 25%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+#zawartosc{
+    flex: 1 1 75%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+#stopka{
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+    padding-top: 20px;
+}
+#logo{
+    background-color: white;
+    float: left;
+    width: 80px;
+    height: 30px;
+    text-align:left;
+    border: 1.5px solid black;
+}

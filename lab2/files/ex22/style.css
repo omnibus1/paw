@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    gap: 1em;
+    flex-basis: 100%;
+}
+.box div{
+    box-sizing: border-box;
+    padding: 30px;
+    border: 2px solid rgb(129, 129, 129);
+    flex: 1 1 100%;
+    
+}
+.box div:nth-of-type(1){
+    background-color: yellow;
+    flex: 1 1 20%;
+}
+.box div:nth-of-type(2){
+    background-color: red;
+    flex: 1 1 70%;
+}
+.box div:nth-of-type(3){
+    background-color: yellow;
+    flex: 1 1 20%;
+}
+.box div:nth-of-type(4){
+    background-color: red;
+    flex: 1 1 70%;
+}
+.box div:nth-of-type(5){
+    background-color: aqua;
+}
+.box2{
+    display: flex;
+    width: 300px;
+}
+
+.box2 div{
+    padding: 30px;
+    background-color: yellow;
+    border: 1px solid black;
+    flex: 1 1 100%;
+}

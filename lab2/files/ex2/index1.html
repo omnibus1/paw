@@ -6,6 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Alignment: aligning individual items on the cross axis</title>
     <link rel="stylesheet" href="style.css">
+  
+  <style>
+    section{
+      width: 80vw;
+      height: 300px;
+      border: 2px solid gray;
+      
+    }
+    /* 1st */
+     .box{
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      height: 300px;
+      align-items: flex-start;
+    }
+    .box div{
+      padding: 30px;
+      background-color: lightblue;
+      border: 3px solid rgb(75, 75, 243);
+      border-radius: 10px;
+    }
+    .box div:nth-of-type(1){
+      align-self: stretch;
+      background-color: red;
+    }
+    .box div:nth-of-type(3){
+      align-self: center;
+      background-color: red;
+    }
+    
+    /* 2nd */
+    /* .box{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-basis:content;
+      height: 400px;
+    }
+    .box div{
+      background-color: rgb(123, 123, 245);
+      border: 3px solid blue;
+      padding: 20px;
+      border-radius: 10px;
+      flex-basis: 100%;
+      
+    }
+    .box div:nth-of-type(1){
+      align-self: stretch;
+    }
+    .box div:nth-of-type(3){
+      align-self: center;
+    } */
+    
+  </style>
 </head>
 
 <body>
